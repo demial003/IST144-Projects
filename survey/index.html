@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mooli&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form">
+      <div class="title">
+        <h1>Hackathon Feedback</h1>
+        <p>
+          We appreciate your participation in our hackathon, plase complete the
+          survey to let us know how we can improve your experience in the
+          future.
+        </p>
+      </div>
+      <div class="content">
+        <div class="line1">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="fname" />
+          <div class="gender">
+            <label for="gender">Gender</label>
+            <select name="gender" id="gender">
+              <option value="none" selected disabled hidden></option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+              <option value="other">Other</option>
+              <option value="refuse">Rather not say</option>
+            </select>
+          </div>
+        </div>
+        <div class="line2">
+          <label for="address">Address</label>
+          <input type="address" name="address" id="address" />
+        </div>
+        <div class="line3">
+          <label for="email">Email</label>
+          <input type="email" name="email" id="email" />
+        </div>
+        <div class="line4">
+          <label for="phone">Phone</label>
+          <input type="tel" name="phone" id="phone" />
+        </div>
+        <div class="line5">
+          <label for="q1"
+            >What difficulties did you experience during this hackathon?</label
+          >
+          <textarea name="" id="q1"></textarea>
+        </div>
+        <div class="line6">
+          <label for="q2">Is this your first hackathon?</label>
+          <div class="radio">
+            <input type="radio" name="radio" /><label for="option1">Yes</label>
+          </div>
+          <div class="radio">
+            <input type="radio" name="radio" /><label for="option2">No</label>
+          </div>
+        </div>
+        <div class="line7">
+          <label for="q3"
+            >What language(s) did you use? (Select all that apply.)</label
+          >
+          <div class="checkbox">
+            <input type="checkbox" name="check" id="" /><label for=""
+              >JavaScript</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="check" id="" /><label for=""
+              >Java</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="check" id="" /><label for=""
+              >Python</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="check" id="" /><label for=""
+              >CSS</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="check" id="" /><label for=""
+              >C++</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="check" id="" /><label for="">C#</label>
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="check" id="" /><label for=""
+              >PHP</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="check" id="" /><label for=""
+              >Swift</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="check" id="" /><label for=""
+              >HTML</label
+            >
+          </div>
+          <div class="checkbox">
+            <input type="checkbox" name="check" id="" /><label for="">C</label>
+          </div>
+        </div>
+        <div class="line8">
+          <label for="q4">Do you have any other feedback?</label>
+          <textarea name="q4" id="q4"></textarea>
+        </div>
+        <div class="button">
+          <button class="submit" value="Submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

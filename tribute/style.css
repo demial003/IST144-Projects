@@ -1,0 +1,36 @@
+#title{
+    text-align: center;
+    font-size: 7vh;
+}
+
+#content{
+    background-color: darkgray;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+    margin: 370px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 665px;
+    height: auto;
+}
+
+
+
+img{
+    height: 450px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bottom{
+    text-align: center;
+}
+
+
+a{
+    text-decoration: none;
+}

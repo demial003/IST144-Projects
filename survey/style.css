@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: "Mooli", sans-serif;
+}
+
+body {
+  display: flex;
+
+  margin: 0px;
+  padding: 0px;
+  justify-content: center;
+  background-image: url(/survey/cartoon-galaxy-background-with-planets_23-2148966504.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  image-rendering: crisp-edges;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -o-crisp-edges;
+  image-rendering: -webkit-optimize-contrast;
+  -ms-interpolation-mode: nearest-neighbor;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: rgba(207, 118, 245, 0.3);
+  width: 700px;
+  min-height: 900px;
+  /* max-height: 1400px; */
+  margin: 50px;
+  padding: 30px 20px;
+  box-shadow: 2px 5px 10px rgba(83, 16, 209, 0.5);
+}
+
+.title {
+  margin-bottom: 30px;
+  font-size: 150%;
+}
+
+p {
+  width: 620px;
+  line-height: 30px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 24px;
+  min-height: 1100px;
+}
+
+.line1,
+.line2,
+.line3,
+.line4 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.gender {
+  display: flex;
+  align-items: flex-start;
+  gap: 19px;
+  height: 55px;
+}
+input#name {
+  width: 44%;
+  height: 30px;
+}
+
+select#gender {
+  width: 90%;
+  height: 30px;
+  border-radius: 0px;
+}
+
+input#address {
+  height: 30px;
+  width: 83%;
+}
+
+input#phone,
+input#email {
+  height: 30px;
+  width: 83%;
+}
+
+.line5,
+.line8 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+#q1,
+#q4 {
+  width: 660px;
+  height: 80px;
+}
+
+.line6 {
+  display: flex;
+  flex-direction: column;
+}
+
+.radio {
+  display: flex;
+  gap: 5px;
+}
+
+.line7 {
+  display: flex;
+  flex-direction: column;
+}
+.checkbox {
+  display: flex;
+  gap: 8px;
+}
+
+input,
+textarea {
+  background-color: white;
+  border: none;
+}
+
+.button {
+  height: 50px;
+  width: 500px;
+}
+
+.submit {
+  width: 660px;
+  text-align: center;
+  height: 30px;
+  margin: 0;
+}
