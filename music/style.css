@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: powderblue;
+  color: black;
+}
+
+h1,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.left-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  width: 50vw;
+}
+
+.playing {
+  font-size: 34px;
+}
+
+label {
+  font-size: 16px;
+}
+audio {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-col {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.content {
+  display: flex;
+  gap: 10px;
+  height: 80vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+input {
+  height: 50px;
+  width: 50px;
+}
+
+div {
+  font-size: 30px;
+}
+
+.logo {
+  width: 70%;
+  height: auto;
+}

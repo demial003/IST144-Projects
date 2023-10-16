@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mooli&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="form">
+      <div class="title">
+        <h1>Contact Us</h1>
+      </div>
+      <div class="content">
+        <div class="line1">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="fname" />
+          <div class="gender">
+            <label for="gender">Issue</label>
+            <select name="gender" id="gender">
+              <option value="none" selected disabled hidden></option>
+              <option value="male">Site related</option>
+              <option value="female">Food related</option>
+              <option value="other">Employment</option>
+              <option value="refuse">Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="line2">
+          <label for="address">Address</label>
+          <input type="address" name="address" id="address" />
+        </div>
+        <div class="line4">
+          <label for="phone">Phone</label>
+          <input type="tel" name="phone" id="phone" />
+        </div>
+        <div class="line6">
+          <label for="q2">Are you a member of our restaurant?</label>
+          <div class="radio">
+            <input type="radio" name="radio" /><label for="option1">Yes</label>
+          </div>
+          <div class="radio">
+            <input type="radio" name="radio" /><label for="option2">No</label>
+          </div>
+        </div>
+        <div class="line8">
+          <label for="q4">What is your concern?</label>
+          <textarea name="q4" id="q4"></textarea>
+        </div>
+        <div class="button">
+          <button class="submit" value="Submit">Submit</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
